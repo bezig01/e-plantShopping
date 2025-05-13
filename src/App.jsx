@@ -6,7 +6,7 @@ import AboutUs from './AboutUs';
 
 function App() {
 
-  const [showProductList, setShowProductList] = useState(false);
+  const [showProductList, setShowProductList] = useState(true); // change to false to show landing page first
 
   const handleGetStartedClick = () => {
     setShowProductList(true);
